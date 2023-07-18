@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "image=ghcr.io/kyori19/devcontainers/images/satysfi-base" >> $GITHUB_OUTPUT
+echo "variant=${VARIANT:-latest}" >> $GITHUB_OUTPUT
