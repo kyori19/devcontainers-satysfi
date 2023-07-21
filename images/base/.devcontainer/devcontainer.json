@@ -3,7 +3,8 @@
     "dockerfile": "./Dockerfile",
     "context": ".",
     "args": {
-      "VARIANT": "${localEnv:VARIANT:latest}"
+      "VARIANT": "${localEnv:VARIANT:latest}",
+      "LSP_VERSION": "${localEnv:LSP_VERSION:1ce6bc4d08eb748aeb10f69498e4a16f01978535}"
     }
   },
   "features": {
